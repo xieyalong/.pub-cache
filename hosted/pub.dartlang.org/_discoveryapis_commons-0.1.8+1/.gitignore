@@ -1,0 +1,11 @@
+.buildlog
+.DS_Store
+.idea
+.packages
+.project
+.pub/
+.dart_tool/
+.settings/
+build
+packages
+pubspec.lock
