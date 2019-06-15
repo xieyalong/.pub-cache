@@ -1,0 +1,23 @@
+name: provide
+version: 1.0.2
+description: >
+  A simple framework for state management in Flutter. This package contains classes
+  to allow the passing of data down the widget tree.
+authors:
+- Eric Jia <ejia@google.com>
+- The Fuchsia Authors
+homepage: https://github.com/google/flutter-provide
+
+environment:
+  sdk: '>=2.0.0 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  test: ">=0.12.30+3"
+  mockito:
+  scoped_model:
+
