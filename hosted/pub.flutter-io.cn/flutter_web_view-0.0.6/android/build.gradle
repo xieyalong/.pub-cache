@@ -3,11 +3,12 @@ version '1.0-SNAPSHOT'
 
 buildscript {
     repositories {
-        google()
-        jcenter()
-        maven {
-            url "https://maven.google.com"
-        }
+		maven{ url "http://maven.aliyun.com/nexus/content/groups/public/" }
+        maven{ url 'https://maven.aliyun.com/repository/google' }
+        maven{ url 'https://maven.aliyun.com/repository/jcenter' }
+        //google()
+        //jcenter()
+        //maven { url "https://maven.google.com" }
     }
 
     dependencies {
@@ -18,10 +19,12 @@ buildscript {
 
 rootProject.allprojects {
     repositories {
-        jcenter()
-        maven {
-            url "https://maven.google.com"
-        }
+        maven{ url "http://maven.aliyun.com/nexus/content/groups/public/" }
+        maven{ url 'https://maven.aliyun.com/repository/google' }
+        maven{ url 'https://maven.aliyun.com/repository/jcenter' }
+        //google()
+        //jcenter()
+        //maven { url "https://maven.google.com" }
     }
 }
 
